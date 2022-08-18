@@ -17,7 +17,8 @@
         android:focusable="true"
         app:srcCompat="@drawable/ic_action_novo_aluno"
         tools:layout_editor_absoluteX="400dp"
-        tools:layout_editor_absoluteY="661dp" />
+        tools:layout_editor_absoluteY="661dp"
+        android:contentDescription="Adicionar Integrante" />
 
     <ListView
         android:id="@+id/lista_de_alunos"

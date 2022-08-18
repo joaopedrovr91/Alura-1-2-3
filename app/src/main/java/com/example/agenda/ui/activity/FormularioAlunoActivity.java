@@ -34,7 +34,7 @@ public class FormularioAlunoActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
         getMenuInflater()
                 .inflate(R.menu.activity_formulario_aluno_menu, menu);
         return super.onCreateOptionsMenu(menu);
